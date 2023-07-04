@@ -1,6 +1,7 @@
-inputtext=$1
-inputfile=$2
-
+#inputtext=$1
+#inputfile=$2
+inputfile="prdesc.txt"
+inputtext=$(cat prdesc.txt)
 
 echo "$inputtext" | while IFS= read -r line
 do
